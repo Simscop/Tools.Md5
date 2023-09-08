@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4Ux+qOXM77WdixlSKw6cuYA/kJ1lqO0I0FzHgivBjaApzMBjw/S5ANmioOqrHMcFr7p7ziDqHSkqW6Oplv2urQ==",
+  "dgSpecHash": "0M6AMyYXz9e3gro0kEE4h3TNC2H3H73ejGC8uxdup6VytQCSljIZtYhv3YUMKzmf4T7qaqwqmokCc5FKz9px8w==",
   "success": true,
   "projectFilePath": "F:\\tools\\Tools.Md5\\Tools.Md5.Core\\Tools.Md5.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\haeer\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512"
+  ],
   "logs": []
 }
