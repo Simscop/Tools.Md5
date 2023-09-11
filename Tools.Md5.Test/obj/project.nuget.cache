@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3sgUgeOzvUwodhLFbJyl7LIthR+C5pqPNZszBpqxm6Fgbm8WnCkdr0FVzJt7cipS/TTJFGGM5GNLiVukoNKyww==",
+  "dgSpecHash": "Be3g/MoVqxIUpMfmHdJyuQLP7SIcpPdcZhC4vNRud9oyqLyNL7g/iM6MNRSr7G/chC6qDRFPA1pPWm7U3+ukPQ==",
   "success": true,
   "projectFilePath": "F:\\tools\\Tools.Md5\\Tools.Md5.Test\\Tools.Md5.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\haeer\\.nuget\\packages\\benchmarkdotnet\\0.13.7\\benchmarkdotnet.0.13.7.nupkg.sha512",
     "C:\\Users\\haeer\\.nuget\\packages\\benchmarkdotnet.annotations\\0.13.7\\benchmarkdotnet.annotations.0.13.7.nupkg.sha512",
     "C:\\Users\\haeer\\.nuget\\packages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512",
+    "C:\\Users\\haeer\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
     "C:\\Users\\haeer\\.nuget\\packages\\gee.external.capstone\\2.3.0\\gee.external.capstone.2.3.0.nupkg.sha512",
     "C:\\Users\\haeer\\.nuget\\packages\\iced\\1.17.0\\iced.1.17.0.nupkg.sha512",
     "C:\\Users\\haeer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
