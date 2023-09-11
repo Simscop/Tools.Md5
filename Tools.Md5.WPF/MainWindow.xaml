@@ -66,11 +66,11 @@
                     <MenuItem
                         Command="{Binding ExportCommand}"
                         CommandParameter="0"
-                        Header="Relative Path" />
+                        Header="AbsolutePath" />
                     <MenuItem
                         Command="{Binding ExportCommand}"
                         CommandParameter="1"
-                        Header="Absolute Path" />
+                        Header="RelativePath" />
                 </MenuItem>
             </Menu>
         </StackPanel>
