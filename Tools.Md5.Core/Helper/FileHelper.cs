@@ -29,4 +29,15 @@ public static class FileHelper
             : throw new Exception("The folder path does not exist.");
 
     public static long GetSize(string path) => new FileInfo(path).Length;
+
+    public static string GetRelativePath(string root, string path)
+    {
+        var absoluteUri = new Uri(path);
+        var baseUri = new Uri(root);
+
+        var relativeUri = baseUri.MakeRelativeUri(absoluteUri);
+
+        return Uri.UnescapeDataString(relativeUri.ToString());
+    }
+
 }

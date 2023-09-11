@@ -47,11 +47,31 @@
                     <MenuItem Command="{Binding SelecteFolderCommand}" Header="Folder" />
                     <MenuItem Command="{Binding SelecteIgnoreFileCommand}" Header="Ignore File" />
                 </MenuItem>
-                <MenuItem Command="{Binding ExportCommand}" Header="Export" />
                 <MenuItem Header="Tools">
-                    <MenuItem Command="{Binding ReverseSelectedCommand}" Header="Reverse Selected" />
+                    <MenuItem
+                        Command="{Binding SwitchSelectedCommand}"
+                        CommandParameter="0"
+                        Header="UnSelect" />
+                    <MenuItem
+                        Command="{Binding SwitchSelectedCommand}"
+                        CommandParameter="1"
+                        Header="Select" />
+                    <MenuItem
+                        Command="{Binding SwitchSelectedCommand}"
+                        CommandParameter="2"
+                        Header="Reverse" />
                 </MenuItem>
-                <MenuItem Command="{Binding LoadCommand}" Header="Load" />
+                <MenuItem Command="{Binding RunCommand}" Header="Calculate" />
+                <MenuItem Header="Export">
+                    <MenuItem
+                        Command="{Binding ExportCommand}"
+                        CommandParameter="0"
+                        Header="Relative Path" />
+                    <MenuItem
+                        Command="{Binding ExportCommand}"
+                        CommandParameter="1"
+                        Header="Absolute Path" />
+                </MenuItem>
             </Menu>
         </StackPanel>
     </hc:Window.NonClientAreaContent>

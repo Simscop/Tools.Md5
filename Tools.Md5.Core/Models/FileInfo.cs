@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.ComponentModel;
+using Tools.Md5.Core.Helper;
 
 namespace Tools.Md5.Core.Models;
 
@@ -35,4 +36,7 @@ public partial class FileInfo : ObservableObject
 
     public override string ToString()
         =>$"{Path},{Size},{Md5}";
+
+    public string ToString(string root)
+        =>$"{FileHelper.GetRelativePath(root, Path)},{Size},{Md5}";
 }
